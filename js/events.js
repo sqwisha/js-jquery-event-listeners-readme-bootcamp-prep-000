@@ -7,6 +7,12 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function() {
     $('img').classList.add('tasty');
+  });
+}
+
+function pressIt() {
+  $('input').on('keydown', function(key) {
+    if(key === )
   })
 }
 
